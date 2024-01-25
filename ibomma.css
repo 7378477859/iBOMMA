@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(3, 3, 3);
+    margin: 0%;
+}
+header{
+    background-color: rgb(20, 20, 20);
+    border-top: 5px solid yellow;
+    padding: 25px 0px 20px 60px;
+}
+header img{
+    width: 130px;
+}
+.slogen h2{
+    text-align: center;
+    color: white;
+    font-family: 'Calibri light';
+    font-size: 40px;
+    margin-top: 50px;
+}
+.slogen p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+main {
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(210px,1fr));
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+section img{
+    width:200px;
+    border-radius: 10px;
+    transition-duration: 100ms;
+}
+section img:hover{
+    /* transform: rotate(180deg); */
+    /* transform: rotatex(180deg); */
+    /* transform: rotatey(180deg); */
+    transform:scale(0.9);
+}
+section a,span{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+   
+}
+section a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+footer div{
+    background-color:  rgb(20, 20, 20);
+    padding: 20px 0px 20px 0px;
+    margin-top: 30px;
+   
+}
+footer div p{
+    text-align: center;
+    margin: 0%;
+    color: white;
+    font-size: 16px;
+    font-family: ariarl;
+}
